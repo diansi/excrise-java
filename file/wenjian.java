@@ -11,9 +11,9 @@ public class wenjian {
                 str = reader.readLine();    
             }    
         } 
+ //当抛出多个异常时，子异常当在父异常前抛出。  
         catch (FileNotFoundException e) {   
-            //当抛出多个异常时，子异常当在父异常前抛出。  
-            e.printStackTrace();    
+                       e.printStackTrace();    
         } 
         catch (IOException e) {    
             e.printStackTrace();    
