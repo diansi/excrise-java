@@ -27,6 +27,7 @@ public class caipiao{
 		System.out.println("Bet the following combination.It'll make you rich!");
 		for(int r:result)
 			System.out.println(r);
+
 			
 		
 	}
