@@ -26,6 +26,8 @@ public class Employee extends Person{
 	{
 		double raise=salary*byPercent/100;
 		salary+=raise;
+
+
 	}
 
 }
